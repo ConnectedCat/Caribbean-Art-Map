@@ -1,0 +1,142 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100%;
+}
+
+.branding{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  border: 1px solid #bbb;
+}
+
+.branding-logo {
+  width: 167px;
+  height: 60px;
+  background-image: url('../img/FreshMilk_logo.png');
+}
+
+#map-ui {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+}
+
+#map-ui ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#map-ui a, h3 {
+  font-family: 'Muli', sans-serif;
+    font-size: 13px;
+    background: #FFF;
+    color: #3C4E5A;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #BBB;
+    border-bottom-width: 0;
+    min-width: 138px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#map-ui a:hover {
+    background: #ECF5FA;
+}
+
+#map-ui li:last-child a {
+    border-bottom-width: 1px;
+    -webkit-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+
+#map-ui li:first-child a {
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+}
+
+#map-ui a.active {
+    background: #5a6872;
+    border-color: #3887BE;
+    color: #FFF;
+}
+
+.actioncall {
+  float: right;
+}
+.popup {
+  text-align: center;
+}
+.popup .slideshow {
+  width: 100%;
+}
+.popup .slideshow .image {
+  display: none;
+}
+.popup .slideshow .active {
+  display: block;
+}
+.popup .slideshow img {
+  width: 100%;
+}
+.popup .slideshow .caption {
+  background: #eee;
+  padding: 8px;
+}
+.popup .cycle {
+  height: 30px;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+.popup .cycle a.prev {
+  float: left;
+}
+.popup .cycle a.next {
+  float: right;
+}
+
+.pan {
+  position: absolute;
+  top: 107px;
+  left: 10px;
+  z-index: 999;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.pan .wrapper .panner {
+  background: #fff;
+  font-family: 'Muli', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+  position: absolute;
+  left: -10px;
+  top: 25px;
+  width: 16px;
+  height: 16px;
+  padding: 6px 5px 5px;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  text-align: center;
+  -webkit-user-select: none;
+  color: #000;
+}
+
+.nodisplay {
+display: none;
+}

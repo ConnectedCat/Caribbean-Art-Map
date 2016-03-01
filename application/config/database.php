@@ -48,10 +48,14 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'db495290982.db.1and1.com';
-$db['default']['username'] = 'dbo495290982';
-$db['default']['password'] = 'FreshMilk@3';
-$db['default']['database'] = 'db495290982';
+// $db['default']['hostname'] = 'db495290982.db.1and1.com';
+// $db['default']['username'] = 'dbo495290982';
+// $db['default']['password'] = 'FreshMilk@3';
+// $db['default']['database'] = 'db495290982';
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'root';
+$db['default']['password'] = 'root';
+$db['default']['database'] = 'freshmilkmap';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
