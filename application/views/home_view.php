@@ -1,12 +1,12 @@
 <html>
 <head>
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-	<link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css' rel='stylesheet' />
+	<link href='<?php echo base_url();?>plugins/mapbox/mapbox.css' rel='stylesheet' />
 	<!--[if lte IE 8]>
   	<link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet' />
   <![endif]-->
 
-	<script src='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
+	<script src='<?php echo base_url();?>plugins/mapbox/mapbox.js'></script>
 
 	<!----- FOR MARKER CLUSTERS ------>
   <link rel="stylesheet" href="<?php echo base_url();?>plugins/cluster/dist/MarkerCluster.css" />
@@ -21,8 +21,8 @@
 	<script src="<?php echo base_url();?>plugins/fullscreen/Control.FullScreen.js"></script>
 
 	<!---- ADD SOME JQUERY ------------>
-	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script src="<?php echo base_url();?>plugins/jquery/jquery-1.9.1.min.js"></script>
+	<script src="<?php echo base_url();?>plugins/jquery/jquery-ui.min.js"></script>
 
 	<!-- ADD THE FUNCTIONAL SCRIPT -->
 	<script type='text/javascript' src="<?php echo base_url();?>js/homepage.js"></script>
